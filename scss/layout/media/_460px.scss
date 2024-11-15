@@ -1,0 +1,40 @@
+@media (max-width:460px){
+    .ubicacion img{
+        width: 350px;
+    }
+
+    header{
+        height: 130px;
+        display: grid;
+        grid-template-columns: 130px 1fr 130px;
+    }
+
+    .logo-footer img{
+        width: 300px;
+    }
+
+    .nav-bar2 a{
+        display: none;
+    }
+
+    .clase-titulo{
+        font-size: 45px;
+    }
+    .nav-img a img{
+        width: 130px;
+        height: 130px;
+    }
+
+    .nav-logo img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .img-redes-footer{
+        gap: 5px;
+    }
+
+    .logo-footer img{
+        width: 200px;
+    }
+}

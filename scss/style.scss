@@ -1,0 +1,12 @@
+@import "./utilities/map";
+@import "./utilities/functions";
+@import "./utilities/mixins";
+
+
+@import "./base/reset";
+@import "./base/tipografias";
+
+
+@import "./layout/header";
+@import "./layout/main";
+@import "./layout/footer"

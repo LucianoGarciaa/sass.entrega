@@ -1,0 +1,52 @@
+@media (max-width:603px){
+    header{
+        height: 150px;
+        display: grid;
+        grid-template-columns: 150px 1fr 150px;
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .logo-footer img{
+        width: 300px;
+    }
+
+    .nav-bar2 a{
+        display: none;
+    }
+
+    .clase-titulo{
+        font-size: 45px;
+    }
+    .nav-img a img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .nav-logo{
+        padding-top: 60px;
+    }
+
+    .nav-logo img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .ubicacion img{
+        width: 450px;
+    }
+    .parrafo-1 p{
+        font-size: 30px;
+    }
+
+    .parrafo-1{
+        width: 220px;
+    }
+
+    .parrafo-2{
+        width: 260px;
+    }
+
+    .parrafo-2 p{
+        font-size: 30px;
+    }
+}

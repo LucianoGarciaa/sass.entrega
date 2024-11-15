@@ -1,0 +1,45 @@
+@media (max-width:1210px){
+    .mega-contenedor-footer{
+        height: 250px;
+    }
+
+    .logo-footer img{
+        width: 400px;
+    }
+
+    .ypf-contenedor img{
+        width: 100px;
+    }
+
+    .img-redes-footer img{
+        width: 40px;
+    }
+
+    .clase-titulo{
+        font-size: 2.1875rem;
+    }
+    .barra-busqueda{
+        font-size: 2.1875rem;
+    }
+    .nav-bar2{
+        gap: 30px;
+    }
+    header{
+        height: 225px;
+        display: grid;
+        grid-template-columns: 225px 60% 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .nav-img a img{
+        width: 220px;
+        height: 220px;
+    }
+    .nav-logo img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .section-moto{
+        margin-bottom: 50px;
+    }
+}

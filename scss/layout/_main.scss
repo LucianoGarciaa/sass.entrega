@@ -1,0 +1,104 @@
+.section-moto{
+    display: flex;
+    font-family: "Imprima", sans-serif;
+    color: map-get($color, c3 );
+    font-size: 2.5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 628px;
+    margin-bottom: 150px;
+    background-image: url(../assets/imagenes.figma/image.png)
+}
+.parrafo-1{
+    margin-top: 400px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    width: 295px;
+    background-color: map-get($color, c2 );
+    }
+.parrafo-2{
+    background-color: map-get($color, c1 );
+    margin-left: 80px;
+    width: 345px;
+    }
+
+
+    .mega-contenedor{
+    @include flex(center, 0, 60px);
+    margin-bottom: 100px;
+    }
+    
+.contenedor-primera-imagen{
+    background-image: url(../assets/imagenes.figma/motosxr.png);
+    background-size: cover;
+    background-position:center;
+    height: 500px;
+    width: 800px;
+    @include flex(center, end, 0)
+    }
+
+.contenedor-segunda-imagen{
+    background-size: cover;
+    background-position:center;
+    height: 500px;
+    width: 800px;
+    @include flex(center, center, 0px);
+    background-image: url(../assets/imagenes.figma/cb300f.png);
+    }
+.txt-principal h2{
+    text-align: center;
+    }
+    
+.txt-principal h2{
+    font-family: "Jockey One", sans-serif;
+    color: map-get($color, c3 );
+    font-size: 60px;
+    }
+    
+.txt-principal h3{
+    font-family: "Knewave", system-ui;
+    color: map-get($color, c3 );
+    font-size: 70px;
+    }
+    
+.txt-principal h4{
+    font-family: "Knewave", system-ui;
+    color: map-get($color, c1 );
+    font-size: 70px;
+    }
+.conjunto-txt{
+    @include flex(center, 0, 20px);
+    }
+
+    .conjunto-txt-2{
+        @include flex(center, end, 20px);
+    }
+    
+    .txt-principal-2 h2{
+        font-family: "Jockey One", sans-serif;
+        color: map-get($color, c3 );
+        font-size: 2.5rem;
+    }
+    
+    .txt-principal-2 h3{
+        font-family: "Jockey One", sans-serif;
+        color: map-get($color, c3 );
+        font-size: 2.5rem;
+    }
+    
+    .txt-principal-2 h4{
+        font-family: "Knewave", system-ui;
+        color: map-get($color, c3 );
+        font-size: 2.25rem;
+    }
+    
+    .conjunto-txt-2{
+        padding-top: 320px;
+    }
+    .ubicacion{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
